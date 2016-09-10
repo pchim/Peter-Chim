@@ -1,0 +1,14 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+
+.thumbnail img { max-height: 250px; }
+
+.footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 40px;
+  border-top: 1px solid #eee;
+}
+
