@@ -19,6 +19,13 @@ $(".navbar-inverse a.navbar-brand").hover(function() {
   $(this).text("p c");
 });
 
+$(".navbar").hover(function() {
+  $(this).addClass("opaque");
+}, function() {
+  $(this).removeClass("opaque");
+  $(".navbar-collapse.collapse").removeClass("in");
+});
+
 if($('.navbar').length > 0){
     $(window).on("scroll load resize", function(){
         checkScroll();
