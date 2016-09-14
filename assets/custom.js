@@ -24,6 +24,7 @@ $(".navbar").hover(function() {
 }, function() {
   $(this).removeClass("opaque");
   $(".navbar-collapse.collapse").removeClass("in");
+  $(".navbar-toggle").addClass("collapsed");
 });
 
 if($('.navbar').length > 0){
