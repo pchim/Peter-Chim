@@ -1,5 +1,4 @@
 body {
-  padding-top: 70px;
   padding-bottom: 30px;
 }
 
@@ -12,3 +11,79 @@ body {
   border-top: 1px solid #eee;
 }
 
+.navbar {
+  background: transparent;
+  //background: #222;
+  border: 0px;
+  -webkit-transition: all 0.6s ease-out;
+  -moz-transition: all 0.6s ease-out;
+  -o-transition: all 0.6s ease-out;
+  -ms-transition: all 0.6s ease-out;
+  transition: all 0.6s ease-out;
+}
+
+.navbar:hover {
+  background: #222;
+}
+.navbar ul {
+  float: right;
+}
+.navbar-inverse .navbar-brand,
+.navbar-inverse .navbar-nav>li>a {
+  border-radius: 2px;
+  color: white;
+}
+.navbar-inverse .navbar-brand.scrolled,
+.navbar-inverse .navbar-nav>li>a.scrolled {
+  color: black;
+  font-weight: 900;  
+}
+.navbar:hover.navbar-inverse .navbar-brand.scrolled,
+.navbar:hover.navbar-inverse .navbar-nav>li>a.scrolled {
+  color: white;
+  font-weight: 900;  
+}
+.navbar-inverse .navbar-nav>li>a:hover {
+  background-color: white;
+  color: #333 !important;
+}
+
+
+.jumbotron {
+  background: #286090;
+  border: 1px solid #204d74;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 5%;
+  padding: 20px;
+  text-align: center;
+}
+
+.jumbotron.header-about {
+  margin-bottom: 0;
+}
+
+.jumbotron.about {
+  background: #eee;
+  border: 1px solid #ccc;
+  color: black;
+  margin-top: 0;
+  margin-bottom: 0;
+  text-align: left;
+  font-size: 1.25em;  
+}
+
+.anchor-break {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.container.portfolio {
+  margin-bottom: 5%;
+}
+.logo {
+  height: 64px;
+  width: 64px;
+  margin-right: 32px;
+  border-radius: 10px;
+}
